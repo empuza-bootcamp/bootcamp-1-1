@@ -1,0 +1,57 @@
+body{
+	background-color: black;
+}
+h1 {
+	font-family: 'Bungee', cursive;
+	font-size: 10em;
+	text-align: center;
+	color: green;
+	animation:myfirst 5s;
+	-moz-animation:myfirst 5s; /* Firefox */
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+	-o-animation:myfirst 5s; /* Opera */
+	background-color: grey;
+}
+
+div
+{
+	width:100px;
+	height:100px;
+	background:red;
+	animation:myfirst 5s;
+	-moz-animation:myfirst 5s; /* Firefox */
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+	-o-animation:myfirst 5s; /* Opera */
+}
+
+@keyframes myfirst
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%  {color:blue;}
+100% {color:green;}
+}
